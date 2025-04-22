@@ -1,3 +1,4 @@
+package ejercicios;
 public class concatenaciondeStrings {
     public static void main(String[] args) {
         String saludo = "Hola, mi nombre es ";

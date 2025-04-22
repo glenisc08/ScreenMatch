@@ -1,3 +1,4 @@
+package ejercicios;
 public class ConversionTemperatura {
     public static void main(String[] args) {
         // Declaramos la temperatura en Celsius
