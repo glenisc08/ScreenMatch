@@ -1,6 +1,32 @@
 package screenmatch.Modelos;
 
 public class Titulo {
+
+
+
+    // private String nombre;
+
+        // private int fechaDeLanzamiento;
+
+        // private boolean incluidoEnPlan;
+
+        // private double sumaDeLasEvaluaciones;
+
+        // private int totalDelasEvaluaciones;
+
+        // private int duracionEnMinutos;
+
+
+
+        // public String getNombre() { return nombre; }
+
+        // public int getFechaDeLanzamiento() { return fechaDeLanzamiento; }
+
+        // public boolean isIncluidoEnPlan() { return incluidoEnPlan; }
+
+
+
+
     private String nombre;
 
     private int fechaDeLanzamiento;
@@ -12,6 +38,12 @@ public class Titulo {
     private boolean incluidoEnPlan;
 
     private int totalDelasEvaluaciones;
+
+
+    public Titulo(String nombre, int fechaDeLanzamiento) {
+        this.nombre = nombre;
+        this.fechaDeLanzamiento = fechaDeLanzamiento;
+    }
 
     public String getNombre() {
         return nombre;
@@ -65,4 +97,5 @@ public class Titulo {
     public double calculaMedia(){
         return sumaDeLasEvaluaciones / totalDelasEvaluaciones;
     }
+
 }

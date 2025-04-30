@@ -34,6 +34,10 @@ public class Serie extends Titulo {
     return minutosPorEpisodio;
    }
 
+   public Serie(String nombre, int fechaDeLanzamiento) {
+    super(nombre, fechaDeLanzamiento);
+   }
+
    public void setMinutosPorEpisodio(int minutosPorEpisodio) {
     this.minutosPorEpisodio = minutosPorEpisodio;
    }
