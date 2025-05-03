@@ -1,6 +1,6 @@
 package screenmatch.Modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo>{
 
 
 
@@ -96,6 +96,11 @@ public class Titulo {
 
     public double calculaMedia(){
         return sumaDeLasEvaluaciones / totalDelasEvaluaciones;
+    }
+
+    @Override
+    public int compareTo(Titulo otroTitulo) {
+        return this.getNombre().compareTo(otroTitulo.getNombre());
     }
 
 }

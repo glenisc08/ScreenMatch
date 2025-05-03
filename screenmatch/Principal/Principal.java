@@ -1,10 +1,12 @@
-package screenmatch.Modelos;
+package screenmatch.Principal;
 
 import java.util.ArrayList;
 
-import screenmatch.Pelicula;
 import screenmatch.Calculos.CalculadoraDeTiempo;
 import screenmatch.Calculos.FiltroRecomendacion;
+import screenmatch.Modelos.Episodio;
+import screenmatch.Modelos.Pelicula;
+import screenmatch.Modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package screenmatch;
+package screenmatch.Modelos;
 
 import screenmatch.Calculos.Clasificacion;
-import screenmatch.Modelos.Titulo;
 
 public class Pelicula extends Titulo implements Clasificacion{
    // private String director;
