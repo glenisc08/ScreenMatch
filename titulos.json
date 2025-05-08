@@ -1,0 +1,26 @@
+[
+  {
+    "Nombre": "Coraline",
+    "FechaDeLanzamiento": 2009,
+    "DuracionEnMinutos": 100,
+    "SumaDeLasEvaluaciones": 0.0,
+    "IncluidoEnPlan": false,
+    "TotalDelasEvaluaciones": 0
+  },
+  {
+    "Nombre": "Black Swan",
+    "FechaDeLanzamiento": 2010,
+    "DuracionEnMinutos": 108,
+    "SumaDeLasEvaluaciones": 0.0,
+    "IncluidoEnPlan": false,
+    "TotalDelasEvaluaciones": 0
+  },
+  {
+    "Nombre": "Matrix",
+    "FechaDeLanzamiento": 1993,
+    "DuracionEnMinutos": 60,
+    "SumaDeLasEvaluaciones": 0.0,
+    "IncluidoEnPlan": false,
+    "TotalDelasEvaluaciones": 0
+  }
+]

@@ -1,0 +1,1 @@
+nombre='Coraline', fechaDeLanzamiento=2009, duracion=100
